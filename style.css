@@ -1,44 +1,62 @@
-/* Light & cheerful style */
+/* Retro Synthwave Style */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Pacifico&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #ffe0f7, #ffeebb);
+  color: #2c003e;
+  text-align: center;
+  background-image: url('https://www.transparenttextures.com/patterns/palm.png'); /* Optional: subtle palms */
 }
 
 header {
-  background-color: #e0f7fa;
-  padding: 2rem;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  padding: 3rem 1rem;
+  color: white;
+  text-shadow: 2px 2px #600860;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, 5px 5px 0 #ff00ff;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #6200ea;
+  text-shadow: 1px 1px #ffb6f2;
 }
 
 main {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
 section {
-  margin-bottom: 2rem;
-  background-color: #ffffff;
+  background: white;
+  margin: 2rem auto;
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-}
-
-h1, h2 {
-  color: #00796b;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(255, 0, 255, 0.2);
 }
 
 ul {
-  padding-left: 1.5rem;
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
+  line-height: 2;
 }
 
 footer {
-  text-align: center;
+  background: #ff80ab;
+  color: white;
   padding: 1rem;
-  background-color: #b2dfdb;
   font-size: 0.9rem;
+  text-shadow: 1px 1px #6a1b9a;
 }
